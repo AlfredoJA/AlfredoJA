@@ -6,13 +6,30 @@ figure{
 	margin:0;
 }
 h1{
-	font-family: : sans-serif;
-	color: blue;
-	font-size: 40px;
-	
+	background: #33A;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5cm;
+	text-align: center;
+	margin-right: 127px;
+	margin-left: 127px;
 }
 figcaption{
 	font-family: cursive;
 	font-size: 20px;
 	color: red;
 	}
+body{
+	background-color: black;
+}
+#container
+{
+	width: 80%;
+	text-align: left;
+	border: 1px solid #000;
+	margin: 0 auto;
+	background-color: #A6E0F5;
+	border-color: white;
+	border-radius: 30px;
+}
