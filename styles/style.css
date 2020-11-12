@@ -9,13 +9,15 @@ h1{
 	background: #33A;
 	box-shadow: 0px	2px 0px rgba(0,0,0,0.5);
 	color: white;
+	text-align: center;
 	font-weight: bold;
-	margin: 0;
+	margin: 10px;
 	padding: 0.5cm;
+	border-radius: 15px;
 }
 figcaption{
 	font-family: cursive;
-	font-size: 20px;
+	font-size: 12px;
 	color: red;
 	}
 body{
@@ -29,5 +31,13 @@ body{
 	margin: 0 auto;
 	background-color: #A6E0F5;
 	border-color: white;
-	border-radius: 30px;
+	border-radius: 20px;
+}
+#subtitulo{
+	font-family: monospace;
+	font-weight: bold;
+}
+#listas{
+	font-family:  "courier";
+	font-weight: normal;
 }
