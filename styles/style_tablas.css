@@ -1,16 +1,44 @@
+body{
+	background-color: black;
+}
+section{
+	padding: 0.2cm;
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+	font-family: "courier";
+	font-size: 50px;
+	text-align: center;
+	border-radius: 15px;
+}
 img{
 	width: 180px;
 	height: 180px;
 	}
 figure{
-	margin:0;
+	justify-content: center;
+	align-items: center;
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
-main{
-	width: 50%;
+#container{
+	width: 70%;
 	text-align: left;
-	border: 10px solid #000;
+	border: 5px solid #000;
 	margin: 0 auto;
 	background-color: #A6E0F5;
 	border-color: white;
 	border-radius: 20px;
+	flex-direction: column;
+}
+table{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+h2{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
 }
