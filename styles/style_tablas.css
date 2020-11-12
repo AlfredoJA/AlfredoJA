@@ -1,10 +1,11 @@
 body{
-	background-color: black;
+	background-color: #293249;
 }
 section{
+	box-shadow: 0px	4px 0px #293249;
 	padding: 0.2cm;
 	color: white;
-	background-color: blue;
+	background-color: #69656f;
 	font-weight: bold;
 	font-family: "courier";
 	font-size: 50px;
@@ -14,6 +15,7 @@ section{
 img{
 	width: 180px;
 	height: 180px;
+
 	}
 figure{
 	justify-content: center;
@@ -21,24 +23,40 @@ figure{
 	width: 180px;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 5px solid #000;
+	border-color: white;
 }
 #container{
 	width: 70%;
 	text-align: left;
 	border: 5px solid #000;
 	margin: 0 auto;
-	background-color: #A6E0F5;
+	background-color: #ded2cf;
 	border-color: white;
 	border-radius: 20px;
-	flex-direction: column;
 }
 table{
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
+	margin-bottom: 20px;
+}
+tr{
+	color:#293249;
 }
 h2{
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	margin: 0 auto;
+	color: #293249;
+	font-family: monospace;
+	font-weight: bold;
 }
+figcaption{
+	font-family: "calibri";
+	font-weight: bold;
+	font-size: 12px;
+	color: #69656f;
+	text-align: center;
+	}
