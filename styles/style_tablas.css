@@ -1,3 +1,16 @@
+body{
+	background-color: black;
+}
+section{
+	padding: 0.2cm;
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+	font-family: "courier";
+	font-size: 50px;
+	text-align: center;
+	border-radius: 15px;
+}
 img{
 	width: 180px;
 	height: 180px;
@@ -7,11 +20,12 @@ figure{
 	align-items: center;
 	width: 180px;
 	margin: 0 auto;
+	margin-top: 20px;
 }
 #container{
 	width: 70%;
 	text-align: left;
-	border: 10px solid #000;
+	border: 5px solid #000;
 	margin: 0 auto;
 	background-color: #A6E0F5;
 	border-color: white;
