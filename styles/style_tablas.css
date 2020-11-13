@@ -60,3 +60,11 @@ figcaption{
 	color: #69656f;
 	text-align: center;
 	}
+#buttons{
+	width: 115px;
+	margin: auto;
+	margin-bottom: 5px;
+	padding: 1px;
+	display: flex;
+	align-items: center;
+}
