@@ -1,9 +1,8 @@
-img{
-	width: 120px;
-	height: 120px;
-	}
-figure{
-	margin:0;
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
 }
 h1{
 	background: #69656f;
@@ -18,31 +17,11 @@ h1{
 body{
 	background-color: #293249;
 }
-#container
-{
-	width: 80%;
-	text-align: left;
-	border: 1px solid #000;
-	margin: 0 auto;
-	background-color: #ded2cf;
-	border-color: white;
-	border-radius: 20px;
-}
-#subtitulo{
-	font-family: monospace;
-	font-weight: bold;
-	color: #293249;
-}
-#listas{
-	font-family:  "courier";
-	font-weight: normal;
-}
 footer{
 	height: 50px;
 
 	background: #aca1a1;
-
-	padding: 1px;
+	padding-bottom: 1px;
 	text-align: center;
 	margin: 10px;
 }
@@ -51,4 +30,39 @@ p{
 }
 a{
 	text-decoration: none;
+}
+#container{
+	width: 80%;
+	text-align: left;
+	border: 1px solid #000;
+	margin: 0 auto;
+	background-color: #ded2cf;
+	border-color: white;
+	border-radius: 20px;
+}
+.Lista{
+	list-style: square;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-left:10%;
+	width: 200px;
+}
+.Sublista ol{
+	padding-left: 10%;
+}
+.elemento{
+	font-family:  "courier";
+	font-weight: normal;
+	list-style-type: circle;
+}
+.elemento a{
+	color: white;
+	text-decoration: none;
+
+}
+.elemento a:hover{
+	color:	blue;
+}
+.elemento a:active{
+	color: red;
 }
