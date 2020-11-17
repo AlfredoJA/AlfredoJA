@@ -72,11 +72,29 @@ figcaption{
 	color: #69656f;
 	text-align: center;
 	}
-#buttons{
-	width: 115px;
+/*#buttons{
+	width: 100%;
 	margin: auto;
 	margin-bottom: 5px;
-	padding: 1px;
 	display: flex;
-	align-items: center;
+}*/
+form .anterior{
+	width: 20%;
+	height: 25px;
+	position: relative;
+	left: 5%;
+	top: 2.5rem;
+}
+form .lista{
+	width: 20%;
+	height: 25px;
+	position: relative;
+	left: 40%;
+}
+form .siguiente{
+	width: 20%;
+	height: 25px;
+	position: relative;
+	left: 75%;
+	bottom: 2.5rem;
 }
