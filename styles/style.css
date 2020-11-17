@@ -12,6 +12,7 @@ h1{
 	color: white;
 	text-align: center;
 	font-weight: bold;
+	font-size:5rem;
 	margin: 10px;
 	padding: 0.5cm;
 	border-radius: 15px;
@@ -27,8 +28,11 @@ footer{
 	text-align: center;
 }
 footer p{
-	padding: 0.8rem;
+	padding: 0.5rem;
 	color: white;
+	font-size: 3rem;
+	font-family: monospace;
+	font-weight: bold;
 }
 img{
 	width: 100%;
@@ -42,21 +46,21 @@ figure{
 	border: 5px solid #000;
 	border-color: white;
 	position: relative;
-	top: 30px;
+	top: 90px;
 	left:50%;
 
 }
 figcaption{
 	font-family: "calibri";
 	font-weight: bold;
-	font-size: 0.8rem;
+	font-size: 1.5rem;
 	color: #69656f;
 	text-align: center;
 	}
 #container{
-	width: 80%;
+	width: 90%;
 	min-width: 200px;
-	max-width: 300px;
+	max-width: 500px;
 	text-align: left;
 	border: 1px solid #000;
 	margin: 0 auto 10px;
@@ -68,11 +72,12 @@ figcaption{
 	list-style: square;
 	font-family: sans-serif;
 	font-weight: bold;
+	font-size: 2rem;
 	padding-left:10%;
 	padding-bottom: 5%;
 	width: 200px;
 	position: relative;
-	bottom: 60px;
+	bottom: 75px;
 }
 .Sublista ol{
 	padding-left: 10%;
