@@ -21,18 +21,20 @@ body{
 	background-color: #293249;
 }
 footer{
-	height: 40px;
 	width: 100%;
 	background: #aca1a1;
 	padding-bottom: 1px;
+	height: auto;
 	text-align: center;
 }
 footer p{
+	display: flex;
 	padding: 0.5rem;
 	color: white;
 	font-size: 3rem;
 	font-family: monospace;
 	font-weight: bold;
+	text-align: center;	
 }
 img{
 	width: 100%;
