@@ -57,7 +57,7 @@ footer{
 }
 #box_1{
 	display:flex;
-	width: 100%;
+	width: auto;
 	min-width: 65rem;
 	background-color: #b1772f;
 }
