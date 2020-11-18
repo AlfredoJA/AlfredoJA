@@ -72,29 +72,29 @@ figcaption{
 	color: #69656f;
 	text-align: center;
 	}
-/*#buttons{
+#buttons{
 	width: 100%;
 	margin: auto;
-	margin-bottom: 5px;
-	display: flex;
-}*/
-form .anterior{
-	width: 20%;
-	height: 25px;
-	position: relative;
-	left: 5%;
-	top: 2.5rem;
+	display: inline-block;
+	padding: 0 10% 1rem 10%;
 }
-form .lista{
+#buttons form{
 	width: 20%;
-	height: 25px;
-	position: relative;
-	left: 40%;
+	display: inline-block;
 }
-form .siguiente{
-	width: 20%;
+#buttons form .anterior{
+	width: 100%;
+	height: 25px;
+}
+#buttons form .lista{
+	width: 100%;
 	height: 25px;
 	position: relative;
-	left: 75%;
-	bottom: 2.5rem;
+	left: 99%;
+}
+#buttons form .siguiente{
+	width: 100%;
+	height: 25px;
+	position: relative;
+	left: 198%;
 }

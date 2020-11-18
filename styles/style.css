@@ -17,6 +17,7 @@ h1{
 	padding: 0.5cm;
 	border-radius: 15px;
 }
+
 body{
 	background-color: #293249;
 }
@@ -25,11 +26,11 @@ footer{
 	background: #aca1a1;
 	padding-bottom: 1px;
 	height: auto;
-	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 footer p{
-	display: flex;
-	padding: 0.5rem;
+	padding: 1rem 0 1rem 0;
 	color: white;
 	font-size: 3rem;
 	font-family: monospace;
@@ -61,7 +62,7 @@ figcaption{
 	}
 #container{
 	width: 90%;
-	min-width: 200px;
+	min-width: 300px;
 	max-width: 500px;
 	text-align: left;
 	border: 1px solid #000;
@@ -97,5 +98,22 @@ figcaption{
 	color:	orange;
 }
 .elemento a:active{
+	color: red;
+}
+.enlace{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.enlace a{
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #293249;
+	text-decoration: none;
+
+}
+.enlace a:hover{
+	color: red;
+}
+.enlace a:active{
 	color: red;
 }

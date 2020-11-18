@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+footer{
+	background-color: #476550;
+	font-size: 2rem;
+	max-height:10rem;
+	min-height: 2rem;
+	min-width: 65rem;
+	font-family: monospace;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.nav{
+	width: 100%;
+	min-width: 65rem;
+	display: inline-block;
+	padding: 1rem;
+	background-color: #161f1e;
+}
+.nav img{
+	width: 9.0rem;
+	height: 6.3rem;
+	position: relative;
+	top: .25rem;
+	border: 5px solid #000;
+	border-color: white;
+}
+.nav ol{
+	margin: 0;
+	width: 60rem;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+}
+.nav a{
+	font-size: 3rem;
+	font-family: monospace;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	margin: 1rem;
+}
+.nav a:hover{
+	color:	orange;
+}
+.nav a:active{
+	color: red;
+}
+#box_1{
+	display:flex;
+	width: 100%;
+	min-width: 65rem;
+	background-color: #b1772f;
+}
+#sub--box_1{
+	width: 16rem;
+	background-color: #9a3a11;
+	display:inline-block;
+}
+#sub--box_1 img{
+	width: 12rem;
+	height: 11rem;
+	margin: 2rem;
+	border: 5px solid white;
+
+}
+
+#sub--box_1 .manzana img{
+	position: relative;
+	left: 2rem;
+}
+#sub--box_2{
+	display:inline-block;
+	width: 80%;
+	margin: 5rem;
+}
+#sub--box_2 h2{
+	font-size: 3rem;
+	font-family: monospace;
+	font-weight: bold;
+	color:#372c1e;
+}
+#sub--box_2 p{
+	font-size: 2rem;
+	font-family: monospace;
+	font-weight: bold;
+	color:white;
+}
