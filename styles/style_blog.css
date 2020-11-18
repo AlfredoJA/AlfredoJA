@@ -39,9 +39,11 @@ footer{
 	border-color: white;
 }
 .nav div{
-	display: inline-block;
+	display: flex;
 	margin: 0;
 	width: 60rem;
+	position: relative;
+	left: 20%;
 }
 .nav a{
 	font-size: 3rem;
